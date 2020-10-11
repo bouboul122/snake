@@ -1,0 +1,35 @@
+body {
+  background-color: green;
+  text-align: center;
+}
+
+header {
+  text-align: center;
+}
+
+header h1 {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: "Sansita", cursive;
+}
+
+.play {
+  text-align: center;
+}
+
+#play-button {
+  background-color: darkolivegreen;
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#play-button:hover {
+  background-color: darkgreen;
+}
+
+#play-button:focus {
+  outline: none !important;
+}
